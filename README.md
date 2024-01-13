@@ -7,6 +7,7 @@ Pytster is an application designed to check whether a given hash, email address,
 - Check the malicious status of hashes, email addresses, IPv4 addresses, URLs, and domains.
 - Retrieve detailed information from various OSINT websites.
 - User-friendly GUI implemented using the QT framework with C++.
+- It provides information in json, pdf and text format.
 
 ## How it Works
 
@@ -40,7 +41,7 @@ Pytster utilizes API requests to interact with different OSINT websites, collect
 
 ## Required Modules
 
-- Python: `requests`
+- Python: `requests, fpdf, sys, json, base64, urllib.parse, os`
 
 ## Contributing
 
@@ -49,12 +50,3 @@ Contributions are welcome! If you'd like to contribute to Pytster, please follow
 - Create a new branch for your feature or bug fix.
 - Make your changes and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Special thanks to the contributors and the community for making Pytster possible.
-
-Happy analyzing!
