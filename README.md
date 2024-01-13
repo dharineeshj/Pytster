@@ -3,7 +3,8 @@
 Pytster is an application designed to check whether a given hash, email address, IPv4 address, URL, or domain is malicious. Additionally, it provides detailed information about the input by consolidating data from various OSINT (Open Source Intelligence) websites. This tool simplifies the work of analysts by aggregating information in one place.
 
 ## Overview
-<img src="D:\Git_projects\Pytster\overview.png" alt="Description of the image" width="200" height="200">
+![image](https://github.com/dharineeshj/Pytster/assets/125073551/9374ede8-df19-405c-b522-5aa312eaf3de){:width="200px"}
+
 
 
 
