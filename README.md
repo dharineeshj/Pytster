@@ -11,7 +11,7 @@ Pytster is an application designed to check whether a given hash, email address,
 
 ## How it Works
 
-Pytster utilizes API requests to interact with different OSINT websites, collecting valuable information. The tool is built in Python, leveraging the `requests` module for API interactions. The graphical user interface (GUI) is developed using the QT framework with C++ as the underlying programming language.
+Pytster utilizes API requests to interact with different OSINT websites, collecting valuable information. The tool is built in Python and appliaction of this tool is built in QT framework, leveraging the `requests` module for API interactions. The graphical user interface (GUI) is developed using the QT framework with C++ as the underlying programming language.
 
 ## Usage
 
@@ -24,6 +24,7 @@ Pytster utilizes API requests to interact with different OSINT websites, collect
 
 2. **Dependencies:**
    - Ensure you have Python installed.
+   - If you want to modify the look and beahviour of the application install Qt C++ framework and import the above C++ files in your Qt project.
    - Install required Python modules:
      ```bash
      pip install -r requirements.txt
