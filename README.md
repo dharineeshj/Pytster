@@ -33,7 +33,7 @@ Pytster utilizes API requests to interact with different OSINT websites, collect
 3. **Run the Application:**
    - Execute the main script:
      ```bash
-     python main.py
+     python pytster-cmd.py
      ```
 
 4. **Input and Analysis:**
