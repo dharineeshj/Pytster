@@ -223,7 +223,8 @@ try:
 
     def url(url_):
             #Virustotal
-            url="https://www.virustotal.com/api/v3/urls"
+            url="http
+            s://www.virustotal.com/api/v3/urls"
             headers={'x-apikey':'<YOUR API KEY>'}
             f_data={'url':url_}
             response=requests.post(url,headers=headers,data=f_data)
@@ -346,4 +347,5 @@ try:
 except ImportError:
     os.system("pip install re")
     print("\n\nRun the tool again...")
+    
 
